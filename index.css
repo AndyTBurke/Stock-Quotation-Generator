@@ -1,20 +1,26 @@
+body {
+ background-color: rgba(2, 56, 13, 0.445);
+ color: rgb(78, 2, 13);
+}
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: monospace
+  font-family: monospace;
 }
 
 h1 {
   font-size: 6vw;
+  color: black;
 }
 
 .quote-container {
-  border: 1px solid black;
+  
   height: 20vh;
-  width: 60vw;
-  font-size: 3vh;
-  font-family: 'Lobster Two', cursive;
+  width: 65vw;
+  font-size: 4.5vh;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +30,6 @@ h1 {
   margin: 2vh 0 2vh 15vw;
   height: 5vh;
   width: 30vw;
-  border: 1px solid black;
   font-family: 'Trebuchet MS', Arial, sans-serif;
   display: flex;
   align-items: center;
@@ -34,4 +39,23 @@ h1 {
 
 .quotation {
   width: 80%;
+}
+
+button {
+  margin-top: 2%;
+  padding: 5px;
+  width: 25vw;
+  font-size: larger;
+  background-color: rgba(128, 255, 0, 0.39);
+  font-family: monospace;
+  font-weight: bolder
+}
+
+button:hover {
+  cursor: pointer;
+  border-color: red;
+}
+
+button:active {
+  box-shadow: 0px 0px 5px #c1c1c1
 }
